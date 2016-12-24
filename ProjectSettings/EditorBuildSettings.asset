@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Sceens/StartMenu.unity
+  - enabled: 1
+    path: Assets/Sceens/Settings.unity
+  - enabled: 1
+    path: Assets/Sceens/House/StartRoom.unity
+  - enabled: 1
+    path: Assets/Sceens/House/BedRoom.unity
+  - enabled: 1
+    path: Assets/Sceens/House/TableRoom.unity
+  - enabled: 1
+    path: Assets/Sceens/Sleep/ExitFromHouse.unity
+  - enabled: 1
+    path: Assets/Sceens/House/BombCraft.unity
+  - enabled: 1
+    path: Assets/Sceens/Sleep/DvorSon.unity
+  - enabled: 1
+    path: Assets/Sceens/Sleep/DvorSon2.unity
+  - enabled: 1
+    path: Assets/Sceens/Prosp/ProspektWild.unity
+  - enabled: 1
+    path: Assets/Sceens/Prosp/ProspektPower.unity
+  - enabled: 1
+    path: Assets/Sceens/Prosp/SouthProsp.unity
+  - enabled: 1
+    path: Assets/Sceens/Prosp/SouthEastProsp.unity
+  - enabled: 1
+    path: Assets/Sceens/Prosp/EastProsp.unity
+  - enabled: 1
+    path: Assets/Sceens/Mary.unity
+  - enabled: 1
+    path: Assets/Sceens/Belka.unity
+  - enabled: 1
+    path: Assets/Sceens/Morg/MorgKPodv.unity
+  - enabled: 1
+    path: Assets/Sceens/Morg/MorgK4.unity
+  - enabled: 1
+    path: Assets/Sceens/Morg/Morg.unity
+  - enabled: 1
+    path: Assets/Sceens/Pitky.unity
+  - enabled: 1
+    path: Assets/Sceens/SceenswithPeter/KillPeter.unity
+  - enabled: 1
+    path: Assets/Sceens/Police.unity
+  - enabled: 1
+    path: Assets/Sceens/Hospital/Hospital.unity
+  - enabled: 1
+    path: Assets/Sceens/Government.unity
+  - enabled: 1
+    path: Assets/Sceens/Morg/MorgEnter.unity
+  - enabled: 1
+    path: Assets/Sceens/Hospital/HospitalHall2.unity
+  - enabled: 1
+    path: Assets/Sceens/Morg/MorgStreet.unity
+  - enabled: 1
+    path: Assets/Sceens/Prosp/Pereulock0.unity
+  - enabled: 1
+    path: Assets/Sceens/Prosp/Pereulock1.unity
+  - enabled: 1
+    path: Assets/Sceens/Prosp/Kanaliz.unity
+  - enabled: 1
+    path: Assets/Sceens/SceenswithPeter/PeterMeetFire.unity
+  - enabled: 1
+    path: Assets/Sceens/SceenswithPeter/PeterMeetRiver.unity
+  - enabled: 1
+    path: Assets/Sceens/DetSad/DetSadIn1.unity
+  - enabled: 1
+    path: Assets/Sceens/DetSad/DetSad.unity
+  - enabled: 1
+    path: Assets/Sceens/House/WindowBedRoom.unity
+  - enabled: 1
+    path: Assets/Sceens/House/WindowTableRoom.unity
+  - enabled: 1
+    path: Assets/Sceens/River/River.unity
+  - enabled: 1
+    path: Assets/Sceens/River/Plocha.unity
+  - enabled: 1
+    path: Assets/Sceens/DetSad/Sklep.unity
+  - enabled: 1
+    path: Assets/Sceens/DetSad/Kladb2.unity
+  - enabled: 1
+    path: Assets/Sceens/DetSad/DetSadIn2.unity
+  - enabled: 1
+    path: Assets/Sceens/Empty/EmptyEnter.unity
+  - enabled: 1
+    path: Assets/Sceens/Empty/Lock.unity
+  - enabled: 1
+    path: Assets/Sceens/Empty/Empty1.unity
+  - enabled: 1
+    path: Assets/Sceens/Empty/Empty0.unity
+  - enabled: 1
+    path: Assets/Sceens/Empty/Empty2.unity
+  - enabled: 1
+    path: Assets/Sceens/Morg/MorgRoomPeter.unity
+  - enabled: 1
+    path: Assets/Sceens/House/Neighbour.unity
+  - enabled: 1
+    path: Assets/Sceens/Prosp/KidsResedent.unity
+  - enabled: 1
+    path: Assets/Sceens/Fabric/Fabric0.unity
+  - enabled: 1
+    path: Assets/Sceens/Fabric/Beton.unity
+  - enabled: 1
+    path: Assets/Sceens/Hospital/Kaleki.unity
+  - enabled: 1
+    path: Assets/Sceens/Biblio/BibliotekaHall.unity
+  - enabled: 1
+    path: Assets/Sceens/Biblio/BibliotekaHall2F.unity
+  - enabled: 1
+    path: Assets/Sceens/Morg/MorgRoomPeter.unity
+  - enabled: 1
+    path: Assets/Sceens/Empty/EmptyPereh.unity
+  - enabled: 1
+    path: Assets/Sceens/Storages/Sugar.unity
+  - enabled: 1
+    path: Assets/Sceens/Storages/Boxes.unity
+  - enabled: 1
+    path: Assets/Sceens/DetSad/Kotel.unity
+  - enabled: 1
+    path: Assets/Sceens/Fabric/FabricInfo.unity
+  - enabled: 1
+    path: Assets/Sceens/Fabric/FabricInHall.unity
+  - enabled: 1
+    path: Assets/Sceens/Osobniak/Osobniak_Hall.unity
+  - enabled: 1
+    path: Assets/Sceens/Osobniak/Osobniak_Electro.unity
+  - enabled: 1
+    path: Assets/Sceens/Sleep/Line.unity
+  - enabled: 1
+    path: Assets/Sceens/Morg/Body1.unity
+  - enabled: 1
+    path: Assets/Sceens/Morg/Body0.unity
+  - enabled: 1
+    path: Assets/Sceens/Storages/Turbo.unity
+  - enabled: 1
+    path: Assets/Sceens/Endings/PowerEnding.unity
+  - enabled: 1
+    path: Assets/Sceens/Endings/FireEnding.unity
+  - enabled: 1
+    path: Assets/Sceens/Endings/EmptyEnding.unity
+  - enabled: 1
+    path: Assets/Sceens/Endings/BlackEnding.unity
+  - enabled: 1
+    path: Assets/Sceens/Endings/WhiteEnding.unity
+  - enabled: 1
+    path: Assets/Sceens/Titles.unity
+  - enabled: 1
+    path: Assets/Sceens/Support.unity
