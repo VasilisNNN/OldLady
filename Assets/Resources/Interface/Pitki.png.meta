@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: ef81a266e22e70f439006940c95d544d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Pitki_0
+    21300002: Pitki_1
+    21300004: Pitki_2
+    21300006: Pitki_3
+    21300008: Pitki_4
+    21300010: Pitki_5
+    21300012: Pitki_6
+    21300014: Pitki_7
+    21300016: Pitki_8
+    21300018: Pitki_9
+    21300020: Pitki_10
+    21300022: Pitki_11
+    21300024: Pitki_12
+    21300026: Pitki_13
+    21300028: Pitki_14
+    21300030: Pitki_15
+    21300032: Pitki_16
+    21300034: Pitki_17
+    21300036: Pitki_18
+    21300038: Pitki_19
+    21300040: Pitki_20
+    21300042: Pitki_21
+    21300044: Pitki_22
+    21300046: Pitki_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Pitki_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1461
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_1
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1461
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_2
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1461
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_3
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1461
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_4
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1461
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_5
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 1461
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 981
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_7
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 981
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_8
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 981
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_9
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 981
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_10
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 981
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_11
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 981
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_13
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 501
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_14
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 501
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_15
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 501
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_16
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 501
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_17
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 501
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_19
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 21
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_20
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 21
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_21
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 21
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_22
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 21
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pitki_23
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 21
+        width: 465
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
