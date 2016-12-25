@@ -74,14 +74,14 @@ public class Inventory : MonoBehaviour {
 			float slotwidth = Screen.width/slotX;
 			float slotcorrectwidth = slotwidth-slotspace;
 			ActionRect = 
-				new Rect (Ch_pos * Screen.width / slotX, Screen.height-slotwidth- slotwidth*1f,slotwidth*2,50);
+				new Rect (Ch_pos * Screen.width / slotX, Screen.height-slotwidth*3f,slotwidth*1.5f,slotwidth*2);
 			
 			for(int i = 0; i<slots.Count;i++){
 				if(slots[i]!=null)
 					CreateTooltip(slots[Ch_pos]);
 			}
 			
-			GUI.TextArea(ActionRect,tooltip,skin.customStyles[0]);
+			GUI.TextArea(ActionRect,tooltip,skin.customStyles[2]);
 			
 			string use;
 			float useh;
@@ -98,7 +98,7 @@ public class Inventory : MonoBehaviour {
 				useh = Screen.height- Screen.width/slotX-ActionRect.height/3*2;
 			}
 			
-			GUI.Box (new Rect(ActionRect.x,useh,slotcorrectwidth,ActionRect.height/3*2),use, skin.label);
+			//GUI.Box (new Rect(ActionRect.x,useh,slotcorrectwidth,ActionRect.height/3*2),use, skin.label);
 			
 			
 			DrawInventory();

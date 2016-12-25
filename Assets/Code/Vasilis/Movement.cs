@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -246,8 +247,11 @@ if (Application.loadedLevelName == "TableRoom") {
 	{
 		PersDialog ();
 	
-		if (inventory_b && Inv!=null)
-		Inv.showinvent = !Inv.showinvent;
+		if (inventory_b && Inv != null) {
+
+			Inv.showinvent = !Inv.showinvent;
+			MovePers = !Inv.showinvent;
+		}
 	
 		if (Input.GetKeyDown ("l")) {
 			PlayerPrefs.SetString ("CorrLevel", Application.loadedLevelName);
@@ -260,6 +264,27 @@ if (Application.loadedLevelName == "TableRoom") {
 			PlayerPrefs.SetInt("Day",PlayerPrefs.GetInt("Day")+1);
 		if(Input.GetKeyDown("-")&&PlayerPrefs.GetInt("Day")>0)
 			PlayerPrefs.SetInt("Day",PlayerPrefs.GetInt("Day")-1);
+		if(Input.GetKeyDown("0"))
+			PlayerPrefs.DeleteAll();
+
+		if (Inv.showinvent) {
+			if (_horizontal < 0) {
+
+				if (Inv.showinvent && Inv.Ch_pos > 0 && InvTimer < Time.fixedTime) {
+					Inv.Ch_pos--;
+					InvTimer = Time.fixedTime + 0.1f;
+				}
+			
+			}
+			if(_horizontal>0){
+			
+				if(Inv.showinvent&&Inv.Ch_pos<Inv.slotX-1&&InvTimer<Time.fixedTime)
+				{
+					Inv.Ch_pos++;
+					InvTimer = Time.fixedTime+0.1f;
+				}
+			}
+		}
 
 
 		if(MovePers)
@@ -269,8 +294,10 @@ if (Application.loadedLevelName == "TableRoom") {
 			{
 				
 				
-				if(Input.GetAxis("Horizontal")!=0||Input.GetAxis("Vertical")!=0)
+				if(_horizontal!=0||_vertical!=0){
+
 					anim.SetBool("Move", true);
+				}
 				else anim.SetBool("Move", false);
 				
 				
@@ -285,15 +312,7 @@ if (Application.loadedLevelName == "TableRoom") {
 
 			if(Au!=null) PlayFootSteps();
 
-			if(_horizontal<0){
-			transform.Translate(Vector2.right* (speed/-100f));
-				if(Inv.showinvent&&Inv.Ch_pos>0&&InvTimer<Time.fixedTime)
-				{
-					Inv.Ch_pos--;
-					InvTimer = Time.fixedTime+0.1f;
-				}
 
-			}
 
 			if(_horizontal!=0&&_vertical!=0)
 				speed  = speednormal/1.28f; 
@@ -302,14 +321,11 @@ if (Application.loadedLevelName == "TableRoom") {
 			if(_horizontal>0){
 		    transform.Translate(Vector2.right* (speed/100f));
 
-				if(Inv.showinvent&&Inv.Ch_pos<Inv.slotX-1&&InvTimer<Time.fixedTime)
-				{
-				 Inv.Ch_pos++;
-				 InvTimer = Time.fixedTime+0.1f;
-				}
 
 			}
-		
+			if (_horizontal < 0) {
+				transform.Translate (Vector2.right * (speed / -100f));
+			}
 		
 		if(VerMove)
 		{

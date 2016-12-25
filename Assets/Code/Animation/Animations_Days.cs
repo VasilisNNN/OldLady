@@ -17,7 +17,9 @@ public class Animations_Days : MonoBehaviour {
 	
 		if(GetComponent<Animator>()!=null)
 		anim.SetInteger("Day",PlayerPrefs.GetInt("Day"));
-		if (GetComponent<AudioSource> () != null) {
+		if (GetComponent<AudioSource> () != null&&PlayerPrefs.GetInt ("Day")>=1) 
+		{
+
 
 			if(audioP[PlayerPrefs.GetInt ("Day")-1]!=null)
 			Asource.clip = audioP [PlayerPrefs.GetInt ("Day")-1];
