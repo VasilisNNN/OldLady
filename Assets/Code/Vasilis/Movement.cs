@@ -254,12 +254,10 @@ if (Application.loadedLevelName == "TableRoom") {
 		}
 	
 		if (Input.GetKeyDown ("l")) {
-			PlayerPrefs.SetString ("CorrLevel", Application.loadedLevelName);
-
-			if (Input.GetKeyDown ("n"))
+			//PlayerPrefs.SetString ("CorrLevel", Application.loadedLevelName);
 			Application.LoadLevel(PlayerPrefs.GetString ("CorrLevel"));
-
 		}
+
 		if(Input.GetKeyDown("=")&&PlayerPrefs.GetInt("Day")<14)
 			PlayerPrefs.SetInt("Day",PlayerPrefs.GetInt("Day")+1);
 		if(Input.GetKeyDown("-")&&PlayerPrefs.GetInt("Day")>0)

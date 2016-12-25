@@ -3,8 +3,7 @@ using System.Collections;
 
 public class PickObject : MonoBehaviour {
 	
-    
-	public bool Picked {get;set;}	
+	private Movement pl; 
     public int IconNum;
 	private Inventory Inv;
 
@@ -12,17 +11,14 @@ public class PickObject : MonoBehaviour {
 void Start()
 	{ 
 		Inv = GameObject.Find("Vasilis").GetComponent<Inventory>();
-		Picked = false;	
-		//Load ();
+		pl = GameObject.Find ("Vasilis").GetComponent<Movement> ();
+		Load ();
 	}
 	
 private	void Update()
 	{
-
-	 
-      if(Picked)
-		{
-			if(Input.GetAxis("Enter")>0)
+	
+		if(pl.Getcollob().Contains(gameObject)&&pl.enter_b)
 			{
 			if(Inv.CheckEmpty()){
 			    PlayerPrefs.SetInt (name, -1);
@@ -33,24 +29,10 @@ private	void Update()
 			}
 
 			}
-		}
+
 		
 	}
-	private void OnTriggerStay2D(Collider2D e)
-	{
-		if(e.tag == "Player")
-		{
-		Picked = true;
-		}
-	}
-	
-		private void OnTriggerExit2D(Collider2D e)
-	{
-		if(e.tag == "Player")
-		{
-         Picked = false;
-		}
-	}
+
 
 	private void Load()
 	{

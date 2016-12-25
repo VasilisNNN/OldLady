@@ -185,10 +185,13 @@ public class Inventory : MonoBehaviour {
 	public bool CheckEmpty ()
 	{
 		bool result = true;
-		
-		if(inventory[Ch_pos].itemID == -1)
-			result = true;
-		else result = false;
+
+		for (int i = 0; i < inventory.Count; i++) {
+			if (inventory [i].itemID == -1)
+				result = true;
+			else
+				result = false;
+		}
 		
 		
 		return result;

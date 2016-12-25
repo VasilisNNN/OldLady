@@ -22,6 +22,7 @@ public class Flyer : MonoBehaviour {
 				Show = !Show;
 			}
 		if(!vas.Getcollob().Contains(gameObject))Show = false;
+		//if(vas.enter_b&&Show)Show = false;
 
 	}
 	private void OnGUI()
